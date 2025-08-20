@@ -60,6 +60,7 @@ git clone https://github.com/openai/CLIP.git
 conda create -n vgld python=3.8 -y
 conda activate vgld
 conda install pytorch==2.1.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia -y
+pip install tensorboardX pandas==2.1.3 opencv-python==4.8.0.76 tensorboard==2.14.0 timm==0.6.12 scipy matplotlib scikit-image scipy==1.11.4
 cd ./modules/CLIP; pip install -e .;cd ../../
 ```
 
